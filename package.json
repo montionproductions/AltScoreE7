@@ -1,0 +1,25 @@
+{
+  "name": "altscore",
+  "version": "1.0.0",
+  "description": "Reto AltScore",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "altScore"
+  },
+  "author": "Frank Montion",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
